@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class BasePage {
 	WebDriver driver;
 	public BasePage(WebDriver driver) {
-	PageFactory.initElements(driver, this);       // 3 Page factory
+	PageFactory.initElements(driver, this);   
 	this.driver = driver;
 	}
 
